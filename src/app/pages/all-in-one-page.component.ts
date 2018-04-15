@@ -1,7 +1,8 @@
-import {Component} from "@angular/core";
+import { DisplayUserComponent } from './../display-user/display-user.component';
+import { Component } from "@angular/core";
 import { Observable } from "rxjs/Observable";
 import { BehaviorSubject } from "rxjs/BehaviorSubject";
-import {AuthService} from "app/shared/auth.service";
+import { AuthService } from "app/shared/auth.service";
 
 @Component({
     selector: 'app-all-in-one-page',

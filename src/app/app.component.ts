@@ -13,6 +13,7 @@ import { UserInfo } from "app/shared/user-info";
 export class AppComponent {
     private alertType = null;
     private alertMessage = "";
+    public title = 'app works! - okr';
     isLoggedIn = new BehaviorSubject<boolean>(false);
 
     constructor(private authService: AuthService, private router: Router) {
